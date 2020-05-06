@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int franzjosef = 42;
     int hans;
@@ -31,6 +31,72 @@ int main()
 
     const float PI =3.14;
     printf("\nKonstnte Pi= \t %f \n",PI);
+
+    int F;
+    int G;
+    int H;
+    int I;
+    
+    double J;
+
+    printf("Gib 5 ein:\n");
+    scanf("%d", &F);
+    printf("Gib 20 ein:\n");
+    scanf("%d", &G);
+    printf("Gib 8 ein:\n");
+    scanf("%d", &I);
+    H = G * F; 
+    printf( "H = G * F \n");     
+    printf( "\n"); 
+    printf( "%g|F\n", F );  
+    printf( "%f|F\n", F );  
+    printf( "%u|F\n", F ); 
+    printf( "%d|F\n", F ); 
+    printf( "\n"); 
+    printf( "%g|G\n", G );  
+    printf( "%f|G\n", G );  
+    printf( "%u|G\n", G ); 
+    printf( "%d|G\n", G ); 
+    printf( "\n"); 
+    printf( "%g|H\n", H );  
+    printf( "%f|H\n", H );  
+    printf( "%u|H\n", H );  
+    printf( "%d|H\n", H ); 
+    printf( "\n"); 
+    printf( "%g|I\n", I );  
+    printf( "%f|I\n", I );  
+    printf( "%u|I\n", I );  
+    printf( "%d|I\n", I ); 
+    printf( "\n");    
+    printf( "%g|J\n", J );  
+    printf( "%f|J\n", J );  
+    printf( "%u|J\n", J );  
+    printf( "%d|J\n", J ); 
+    printf( "%.2f|J\n", J );
+    printf( "\n"); 
+    printf( "######################################### \n"); 
+
+    J = (double)H / (double)I;
+
+    printf( "J = H / I \n"); 
+    printf( "%g|H\n", H );  
+    printf( "%f|H\n", H );  
+    printf( "%u|H\n", H );  
+    printf( "%d|H\n", H ); 
+    printf( "%.2f|J\n", J );
+    printf( "\n"); 
+    printf( "%g|I\n", I );  
+    printf( "%f|I\n", I );  
+    printf( "%u|I\n", I );  
+    printf( "%d|I\n", I ); 
+    printf( "%.2f|J\n", I );
+    printf( "\n");    
+    printf( "%g|J\n", J );  
+    printf( "%f|J\n", J );  
+    printf( "%u|J\n", J );  
+    printf( "%d|J\n", J ); 
+    printf( "%.2f|J\n", J );
+    printf( "\n"); 
 
     return 0;
 }
