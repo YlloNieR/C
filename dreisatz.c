@@ -23,7 +23,7 @@ int main()
 
         eingabe = getchar();
 
-        if (eingabe == 'A'|| nochmal == 'a')
+        if (eingabe == 'A'|| eingabe == 'a')
         {
             printf("\n");
             printf("Du hast A gewaehlt\n");
