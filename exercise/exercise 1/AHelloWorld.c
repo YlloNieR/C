@@ -66,5 +66,5 @@ int main()
 
     printf("Gut gemacht!");
     
-    return 0;
+   return(0);
 }
